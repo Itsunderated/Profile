@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'against regular';
-    src: url('fonts/against regular.ttf') format('truetype');
+    src: url('against regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Antonia';
-    src: url('fonts/Antonia.woff') format('woff');
+    src: url('Antonia.woff') format('woff');
 }
 
 @font-face {
     font-family: 'AH';
-    src: url('fonts/AH.ttf') format('truetype');
+    src: url('AH.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'clarikageo';
-    src: url('fonts/clarikageo.woff2') format('woff2');
+    src: url('clarikageo.woff2') format('woff2');
 }
 
 @keyframes fadeIn {
