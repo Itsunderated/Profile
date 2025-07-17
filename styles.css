@@ -32,12 +32,13 @@ h1 {
     font-family: 'Antonia', sans-serif;
     font-size: 60px;
     letter-spacing: 5px;
+    color: white;
 }
 
 h2 {
     font-family: 'Arial, sans-serif';
     font-size: 24px;
-    color: #666;
+    color: white;
     margin-top: 10px;
 }
 
@@ -46,6 +47,7 @@ p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    color: white;
 }
 
 #p1 {
@@ -53,19 +55,23 @@ p {
     font-family: clarikageo, sans-serif;
     line-height: 1.5;
     letter-spacing: 1px;
+    color: white;
 }
 
 
 #pp {
     font-family: AH, sans-serif;
     font-size: 42px;
-
+    color: white;
 }
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     transition: background-color 0.5s, color 0.5s;
     overflow: hidden;
+    background-color: #000;
+    color: #fff;
 }
 
 .container {
@@ -79,7 +85,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-right: 1px solid #000;
+    border-right: 1px solid #fff;
     animation: fadeIn 1.5s ease-in;
 }
 
@@ -117,7 +123,7 @@ body {
 }
 
 hr {
-    color: black;
+    color: white;
     border: none; 
     height: 1px; 
     margin: 20px 0; 
@@ -191,7 +197,7 @@ h5.dark-mode  {
 
     .sidebar {
         width: 25%;
-        border-right: 1px solid #000;
+         border-right: 1px solid #fff;
     }
 
     .content {
